@@ -18,7 +18,7 @@ public class Book {
 
 
     @OneToOne
-//    @JoinColumn(name="Publish_for_book")
+//    @JoinColumn(name="Publish_for_book") // Here we can give a column name, if not give, the default name will be used.
     private Publisher publisher;
 
    @ManyToMany
